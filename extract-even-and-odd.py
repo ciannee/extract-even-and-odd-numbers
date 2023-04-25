@@ -11,7 +11,7 @@ with open("numbers.txt") as my_file:
          if i.strip:
             num = int(i)
             # extract even integers
-            
+            if (num % 2 == 0):
                 # append text file
                  
             # extract odd integers
