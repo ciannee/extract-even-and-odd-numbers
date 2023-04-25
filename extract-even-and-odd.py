@@ -12,9 +12,13 @@ with open("numbers.txt") as my_file:
             num = int(i)
             # extract even integers
             if (num % 2 == 0):
-                # append even file
+                # append even text file
                 even = open("even.txt", "a")
                 even.write(str(num))
+                even.write("\n")
             # extract odd integers
-             
+            else:
                 # append odd text file
+                odd = open("odd.txt", "a")
+                odd.write(str(num))
+                odd.write("\n")
